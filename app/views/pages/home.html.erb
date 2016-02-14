@@ -1,11 +1,16 @@
+<font size="4" color="white">Buy or Bid for anything, anytime</font>
+<p>
 <div class="jumbotron center"
-	<h2>Welcome to my app!</h2>
+	
+	<span class="text-success"><h2>Welcome</h2></span>
+
 	<p>
+
 	<% if user_signed_in? %>
-	...Welcome
+	...Welcome to bid.je
 	<%else %>
 	<p>
-		
+		<p>
 		<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
 		<%= link_to "Login", new_user_session_path, class: "btn btn-primary btn-lg" %>
 	<% end %>
