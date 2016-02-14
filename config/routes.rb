@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :bids
   resources :pins
   
   devise_for :users
